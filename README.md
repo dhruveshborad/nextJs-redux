@@ -21,3 +21,13 @@ A modern and production-ready boilerplate using **Next.js 15 App Router**, **Red
 ---
 
 ## 📁 Folder Structure
+```
+📦 src
+┣ 📂 app
+┃ ┣ 📄 layout.tsx           # Root layout with ReduxProvider
+┃ ┣ 📄 provider.tsx         # redux provider wrap
+┃ ┣ 📄 page.tsx             # Main application entry point
+┣ 📂 store                  # Root reducer for combining slices
+┃ ┣ 📄 store.ts             # Redux store setup with persist config
+┃ ┣ 📄 bookslice            # books slice
+```
